@@ -3,7 +3,7 @@ function setup() {
   noFill();
   for(let i = 0; i < 10; i++){
   let s = i * 10 + 10;
-  if(i > 0, i < 5){
+  if(i < 5){
     stroke(0, 0, 255);
   }
   else{
